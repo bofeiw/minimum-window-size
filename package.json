@@ -1,14 +1,13 @@
 {
-    "name": "YOUR_PACKAGE_NAME",
+    "name": "minimum-window-size",
     "version": "0.1.0",
     "description": "",
-    "main": "./lib/YOUR_COMPONENT.js",
+    "main": "./lib/MinimumWindowSize.js",
     "license": "MIT",
     "scripts": {
         "build": "webpack"
     },
     "peerDependencies": {
-        "prop-types": "^15.6.0",
         "react": "^16.0.0",
         "react-dom": "^16.0.0"
     },

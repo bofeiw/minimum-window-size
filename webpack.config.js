@@ -2,10 +2,10 @@ const path = require('path');
 
 module.exports = {
   mode: 'production',
-  entry: './src/YOUR_COMPONENT.js',
+  entry: './src/MinimumWindowSize.js',
   output: {
     path: path.resolve('lib'),
-    filename: 'YOUR_COMPONENT.js',
+    filename: 'MinimumWindowSize.js',
     libraryTarget: 'commonjs2',
   },
   module: {
