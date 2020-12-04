@@ -3,9 +3,9 @@
 // list of dependencies in package.json
 import React, {useEffect, useRef, useState} from 'react';
 
-import './MinimumWindowSize.css';
+import './index.css';
 
-function MinimumWindowSize({width, height, ...props}) {
+function Index({width, height, ...props}) {
     const [shouldHide, setShouldHide] = useState(true);
     const requiredBox = useRef(null);
     const currentBox = useRef(null);
@@ -60,4 +60,4 @@ function MinimumWindowSize({width, height, ...props}) {
     );
 }
 
-export default MinimumWindowSize;
+export default Index;

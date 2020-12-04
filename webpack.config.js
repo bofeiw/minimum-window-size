@@ -2,10 +2,10 @@ const path = require('path');
 
 module.exports = {
   mode: 'production',
-  entry: './src/MinimumWindowSize.js',
+  entry: './index.js',
   output: {
     path: path.resolve('lib'),
-    filename: 'MinimumWindowSize.js',
+    filename: 'index.js',
     libraryTarget: 'commonjs2',
   },
   module: {
@@ -13,14 +13,14 @@ module.exports = {
       {
         test: /\.js?$/,
         include: [
-          path.resolve(__dirname, "./src")
+          path.resolve(__dirname)
         ],
         loader: 'babel-loader',
       },
       {
         test: /\.css$/,
         include: [
-          path.resolve(__dirname, "./src")
+          path.resolve(__dirname)
         ],
         use: [
           'style-loader',
