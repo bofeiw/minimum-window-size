@@ -2,7 +2,7 @@ Minimum Window Size library is a React library that prevents users with small wi
 
 # Demo
 
-![demo gif](example/minimum-window-size-demo.gif)
+![demo gif](https://github.com/bofeiw/minimum-window-size/blob/master/example/minimum-window-size-demo.gif?raw=true)
 It hides the content when window size is small and shows the content when the window resizes to required size.
 
 # Install
