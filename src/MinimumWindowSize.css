@@ -20,3 +20,29 @@
 .minimum-window-size-sub-caption {
     color: gray;
 }
+
+.minimum-window-size-present-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.minimum-window-size-caption-current,
+.minimum-window-size-caption-required {
+    font-size: 0.8em;
+    color: gray;
+}
+
+.minimum-window-size-caption-current {
+    color: whitesmoke;
+}
+
+.minimum-window-size-box-required {
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.minimum-window-size-box-current {
+    background-color: darkgreen;
+}
