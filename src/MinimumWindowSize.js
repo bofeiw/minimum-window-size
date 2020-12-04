@@ -5,7 +5,7 @@ import React, {useEffect, useState} from 'react';
 
 import './MinimumWindowSize.css';
 
-const MinimumWindowSize = ({width, height, ...props}) => {
+function MinimumWindowSize({width, height, ...props}) {
     const [shouldHide, setShouldHide] = useState(true);
 
     useEffect(() => {
@@ -26,8 +26,9 @@ const MinimumWindowSize = ({width, height, ...props}) => {
     return (
         <div className="minimum-window-size-container">
             <div className={"minimum-window-size-hide-content"} hidden={!shouldHide}>
-                Minimum width: {width}
-                Minimum height: {height}
+                <div className={"minimum-window-size-caption"}>Adjust browser size</div>
+                <div className={"minimum-window-size-sub-caption"}>This app requires a large screen size</div>
+
             </div>
             <div className={"minimum-window-size-real-content"} hidden={shouldHide}>
                 {props.children}

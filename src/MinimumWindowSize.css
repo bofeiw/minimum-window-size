@@ -1,0 +1,22 @@
+.minimum-window-size-hide-content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.minimum-window-size-hide-content[hidden] {
+    display: none;
+}
+
+.minimum-window-size-caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.minimum-window-size-sub-caption {
+    color: gray;
+}
