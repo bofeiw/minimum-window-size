@@ -2,9 +2,9 @@ const path = require('path');
 
 module.exports = {
   mode: 'production',
-  entry: './index.js',
+  entry: './src/index.js',
   output: {
-    path: path.resolve('lib'),
+    path: path.resolve(__dirname),
     filename: 'index.js',
     libraryTarget: 'commonjs2',
   },
@@ -13,14 +13,14 @@ module.exports = {
       {
         test: /\.js?$/,
         include: [
-          path.resolve(__dirname)
+          path.resolve(__dirname, "src")
         ],
         loader: 'babel-loader',
       },
       {
         test: /\.css$/,
         include: [
-          path.resolve(__dirname)
+          path.resolve(__dirname, "src")
         ],
         use: [
           'style-loader',
