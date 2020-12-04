@@ -1,7 +1,12 @@
 {
     "name": "minimum-window-size",
-    "version": "1.0.2",
-    "description": "",
+    "version": "1.0.3",
+    "description": "Minimum Window Size library is a React library that prevents users with small window size from using your React app and visually hints users to adjust window size.",
+    "keywords": ["minimum", "window", "size", "react", "library", "small", "display", "not", "hide"],
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/bofeiw/minimum-window-size"
+    },
     "main": "./lib/MinimumWindowSize.js",
     "license": "MIT",
     "scripts": {
