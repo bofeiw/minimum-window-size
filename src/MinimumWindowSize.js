@@ -43,7 +43,7 @@ function MinimumWindowSize({width, height, ...props}) {
         <div className="minimum-window-size-container">
             <div className={"minimum-window-size-hide-content"} hidden={!shouldHide}>
                 <div className={"minimum-window-size-caption"}>Adjust browser size</div>
-                <div className={"minimum-window-size-sub-caption"}>This app requires a large screen size</div>
+                <div className={"minimum-window-size-sub-caption"}>This app requires a larger screen size</div>
                 <div className={"minimum-window-size-present-container"}>
                     <div className={"minimum-window-size-caption-required"}>Required size</div>
                     <div className={"minimum-window-size-box-required"} ref={requiredBox}>
