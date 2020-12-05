@@ -20,12 +20,12 @@ yarn add minimum-window-size
 ```javascript
 import React from 'react'
 
-import Index from "minimum-window-size";
+import MinimumWindowSize from "minimum-window-size";
 
 const App = () => {
-    return <Index width={1200} height={768}>
+    return <MinimumWindowSize width={1200} height={768}>
         <YourComponent/>
-    </Index>
+    </MinimumWindowSize>
 }
 
 export default App
